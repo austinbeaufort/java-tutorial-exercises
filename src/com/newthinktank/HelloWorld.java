@@ -13,27 +13,24 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 
-		try {
-			int badInt = 10 / 0;
-		}
-		catch (ArithmeticException ex) {
-			System.out.println("Can't divide by Zero");
-			System.out.println(ex.getMessage());
-			System.out.println(ex.toString());
-		}
-		catch (Exception ex) {
-			System.out.println(ex.getMessage());
-		}
-		finally {
-			System.out.println("Clean up");
-		}
-		
+
 	}
 
 }
 
 
 /*
+
+classes can only inherit from one class but can inherit from multiple interfaces
+
+
+public - accessible to all classes
+protected - accessible to the current class and its subclasses
+private - only accessible to the current class
+
+
+
+
 data types:
 	byte, short, char, boolean, int, float, double, long 
 	
