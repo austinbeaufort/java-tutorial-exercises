@@ -14,7 +14,7 @@ public class HelloWorld {
 	public static void main(String[] args) {
 
 		try {
-			throw new Exception("Bad code");
+			int badInt = 10 / 0;
 		}
 		catch (ArithmeticException ex) {
 			System.out.println("Can't divide by Zero");
